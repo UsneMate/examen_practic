@@ -41,6 +41,12 @@
     font-size: 2em;
     margin: 0.67em 0;
   }
+
+  form{
+    width: 50%;
+    margin: 20px auto;
+
+  }
   
   /* Grouping content
      ========================================================================== */

@@ -14,13 +14,14 @@
   
 </head>
 <body>
-    <form action="">
+    <form action="" class="formulari">
         <fieldset>
             <legend>Problema</legend>
             <label>Introdueix un text:</label><br>
-            <textarea name="textarea" rows="10" cols="50"></textarea>
+            <textarea name="textarea" rows="10" cols="50" id="cadena"></textarea><br>
             <label>Caràcter:</label><br>
-            <button type="button" value="INICIAR PROCES">INICIAR</button>
+            <input type="text" id="caracter"></input><br>
+            <button type="button" value="INICIAR PROCES" onclick="procesarCadena()">INICIAR</button>
         </fieldset>
     </form>
 </body>
