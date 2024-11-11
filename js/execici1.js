@@ -20,8 +20,14 @@ function procesarCadena(){
     for (let i = 0; i < cadena.length; i++) {
         if(cadena[i].search(caracter) == true){
             novacadena = cadena[i].push;
+            afegirNouElement();
         }
     }
-    console.log(novacadena);
 
+}
+
+function afegirNouElement(){
+    let llista = document.getElementById('llista');
+    let nouElementLlista = document.createElement("li");
+    llista.append(nouElementLlista);
 }
