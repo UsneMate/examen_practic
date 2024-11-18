@@ -74,6 +74,15 @@
     margin-top: 10px;
     font-weight: bold;
   }
+
+  textarea{
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+
+  }
   
   /* Grouping content
      ========================================================================== */
