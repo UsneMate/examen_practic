@@ -27,6 +27,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: rgb(198, 249, 244);
   }
   
   /**
@@ -48,8 +49,13 @@
   }
 
   form{
-    width: 50%;
-    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: rgb(237, 237, 243);
+
 
   }
   
