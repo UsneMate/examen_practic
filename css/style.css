@@ -63,6 +63,17 @@
     border-radius: 5px;
     padding: 20px
   }
+
+  legend{
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
   
   /* Grouping content
      ========================================================================== */
