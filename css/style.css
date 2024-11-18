@@ -94,6 +94,12 @@
     padding: 10px 15px;
     cursor: pointer;
   }
+
+  button:hover{
+    background-color: white;
+    color:blue;
+    transition: 1s;
+  }
   
   /* Grouping content
      ========================================================================== */
